@@ -19,5 +19,5 @@ Nesta parte indica como acessar o Dashboard:
 `app.UseHangfireDashboard("/hangfire");`
 
 ## Referências
-Este projeto foi desenvolvido com base em um artigo técnico.
+Este projeto foi desenvolvido com base em um artigo técnico. <br>
 Site: https://blog.balta.io/agendando-emails-no-dotnet-com-hangfire/
