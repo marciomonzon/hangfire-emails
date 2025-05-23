@@ -1,6 +1,10 @@
 # Envio de e-mails com o HangFire
 Este projeto simula o envio de e-mails através do HangFire.
 
+**Atenção:** 
+O exemplo utiliza banco de dados em memória, mas em produção o ideal
+é utilizar um banco de dados real.
+
 ## O que é?
 Esta biblioteca permite processar tarefas em background de um modo seguro e 
 mais performático.
@@ -14,9 +18,6 @@ Segue o site: https://www.hangfire.io/
 ## Como Funciona?
 Ele simula o envio mensal de emails. Não é um envio verdadeiro, apenas simula.
 O intuito é mostrar como o Hangfire funciona.
-
-O exemplo utiliza banco de dados em memória, mas em produção o ideal
-é utilizar um banco de dados real.
 
 Nesta parte do código é possível alterar para envios mensais, diarios e etc:
 
