@@ -15,6 +15,9 @@ Segue o site: https://www.hangfire.io/
 Ele simula o envio mensal de emails. Não é um envio verdadeiro, apenas simula.
 O intuito é mostrar como o Hangfire funciona.
 
+O exemplo utiliza banco de dados em memória, mas em produção o ideal
+é utilizar um banco de dados real.
+
 Nesta parte do código é possível alterar para envios mensais, diarios e etc:
 
 `RecurringJob.AddOrUpdate<IEmailService>(
