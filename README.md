@@ -1,4 +1,11 @@
+# Envio de e-mails com o HangFire
 Este projeto simula o envio de e-mails através do HangFire.
+
+## O que é?
+Esta biblioteca permite processar tarefas em background de um modo seguro e 
+mais performático.
+
+Segue o site: https://www.hangfire.io/
 
 ## Stack
 - ASP.NET Core;
